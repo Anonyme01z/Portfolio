@@ -32,6 +32,9 @@
                 })
               cy.get('#autocomplete').should('have.value','Nigeria')
 
+              //Remove this code Guy
+              cy.get('#shuga').should('not.be.visible')
+
 
 
 
